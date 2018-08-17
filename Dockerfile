@@ -1,6 +1,6 @@
 FROM nginx:1.13
 LABEL maintainer="Jason Wilder mail@jasonwilder.com"
-
+#test
 # Install wget and install/updates certificates
 RUN apt-get update \
  && apt-get install -y -q --no-install-recommends \
